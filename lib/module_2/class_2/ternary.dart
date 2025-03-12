@@ -1,3 +1,5 @@
+import 'dart:io';
+
 main() {
   var amount = 500;
   String test;
@@ -8,4 +10,7 @@ main() {
       : (amount >= 200)
           ? print('Ami bike jabo')
           : (amount >= 100 ? print('jabo') : print('jabo na'));
+  int? day = int.tryParse(stdin.readLineSync()!);
+  day! <= 25 ? print('not full fast')
+      : (day! >= 30 ? print('fast') : print('not'));
 }
