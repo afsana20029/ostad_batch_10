@@ -1,5 +1,5 @@
 main() {
-  welcomeMessage('Afsana', 'dhaka', age:23);
+  welcomeMessage('Afsana', 'dhaka',);
   welcomeMessage('Akter', 'comilla',age:34);
   welcomeMessage('rafi', 'shdg');
   welcomeMessage('hasan', 'askjdh');
@@ -11,9 +11,10 @@ main() {
   print(add1(firstNo: 12, secondNo:3));
   int y=add1(firstNo: 14, secondNo:20);
   print(y);
+  print(add(12,43));
 }
 
-welcomeMessage(String name, String address, {int age = 0}) {
+welcomeMessage(String name, String address, {int age=0}) {
   print('Welcome to team, $name $age ');
   print('Take your laptop ,$address');
   print('Take your Id');

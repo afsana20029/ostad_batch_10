@@ -1,15 +1,15 @@
 class Monitor {
   String companyName = 'ABC';
   String model = 'ks we';
-  String name;
+   String name;
   int age;
   static const String sample = 'Sample - data';
   String _internalHardwareNo = '235546ghj';
   Monitor(
       {required this.companyName,
       required this.model,
-      required this.age,
-      required this.name}) {}
+      required this.age,required this.name}
+     ) {}
 
   void printModelName() {
     print(model);

@@ -46,15 +46,15 @@ main() {
     print(
         'My staff name is $key.Address:${staff[key]!['address']}.Age :${staff[key]!['age']}');
   }
-  for(Map<String,String> detail in staff.values ){
+  for (Map<String, String> detail in staff.values) {
     print(detail);
   }
-     Map<String,String> girls = {
-    'name' : 'Afsana',
-       'age':'23',
-     'address' :'Dhaka'
+  Map<String, String> girls = {
+    'name': 'Afsana',
+    'age': '23',
+    'address': 'Dhaka'
   };
-  for(String details in girls.keys){
+  for (String details in girls.keys) {
     print('$details : ${girls[details]}');
   }
   // for(Map<String,String> details in staff.keys){
