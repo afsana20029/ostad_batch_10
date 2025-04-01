@@ -1,6 +1,7 @@
-import 'package:ostad_batch_10/module_3/person.dart';
+
 
 import 'class_object.dart';
+import 'inheritance_challenge2.dart';
 
 main() {
 //   Monitor myMonitor = Monitor();
@@ -20,6 +21,7 @@ main() {
 // Monitor.sample;
 // print(Monitor.sample);
 Person rafat = Person('Rafat',23);
-rafat.printName();
+rafat.age;
+print(rafat.age);
 
 }

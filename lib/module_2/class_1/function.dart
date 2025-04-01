@@ -1,6 +1,6 @@
 main() {
   welcomeMessage('Afsana', 'dhaka',);
-  welcomeMessage('Akter', 'comilla',age:34);
+  welcomeMessage('Akter', 'comilla',age: 30);
   welcomeMessage('rafi', 'shdg');
   welcomeMessage('hasan', 'askjdh');
   print(add(40, 30));
