@@ -4,6 +4,6 @@ main() {
   Car myCar = Car(120);
   myCar.setSpeed = 140;
   myCar.move();
-  print(myCar.getSpeed);
+
 }
 
