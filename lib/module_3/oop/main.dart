@@ -1,6 +1,3 @@
-
-
-import 'class_object.dart';
 import 'inheritance_challenge2.dart';
 
 main() {
@@ -12,7 +9,7 @@ main() {
 //   print(myCompanyName.printCompanyName());
 //   Monitor add = Monitor();
 //   print(add.myData(a: 12, b: 13));
-//   Monitor rafisMonitor = Monitor(companyName: 'sdfg', model: 'gfhhj', age: 10, name: 'sdfg',);
+//   Monitor rafisMonitor = Monitor(companyName: 'sdd', model: 'cid', age: 10, name: 'cse',);
 // rafisMonitor.companyName;
 // print(rafisMonitor.companyName);
 // print(rafisMonitor.model);
@@ -20,8 +17,7 @@ main() {
 // print(rafisMonitor.companyName);
 // Monitor.sample;
 // print(Monitor.sample);
-Person rafat = Person('Rafat',23);
-rafat.age;
-print(rafat.age);
-
+  Person rafat = Person('Rafat', 23);
+  rafat.age;
+  print(rafat.age);
 }
