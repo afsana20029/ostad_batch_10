@@ -1,6 +1,5 @@
-
-
 import 'class_object.dart';
+import 'getter_setter.dart';
 import 'inheritance_challenge2.dart';
 
 main() {
@@ -20,8 +19,12 @@ main() {
 // print(rafisMonitor.companyName);
 // Monitor.sample;
 // print(Monitor.sample);
-Person rafat = Person('Rafat',23);
-rafat.age;
-print(rafat.age);
-
+// Person rafat = Person('Rafat',23);
+// rafat.age;
+// print(rafat.age);
+  Worker afsana = Worker();
+  print(afsana.salary);
+  print(afsana.getDesignation);
+  afsana.salary = 34000;
+  print(afsana.salary);
 }
